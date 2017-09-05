@@ -33,12 +33,4 @@ OAUTH_CALLBACK Your project regerect url
 put your downloaded json file name in function.php      
 
 ==>3rd party liberary used    
-Bootstrap  
-  
-jQuery  
-  
-Twitter oauth  
-
-Google Drive API   
-  
-FPDF  
+Bootstrap,jQuery,Twitter oauth,Google Drive API,FPDF    
