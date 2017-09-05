@@ -1,7 +1,5 @@
 <?php
-/**
- * Home Page Defination..!!
- */
+
 ?>
 <!DOCTYPE html>
 <html>
