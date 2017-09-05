@@ -20,14 +20,14 @@ For Google-spreadsheet export feature, your app-user must have Google account. Y
 
 Once user clicks download button (after choosing option) all tweets for logged in users should be downloaded.  
    
-First step to auth of twitter    
+==>First step to auth of twitter    
 link-https://dev.twitter.com/ go to this site and create app of twitter    
 change this 3 line of code use your own key,screte which provide by devaloper twitter account      
 CONSUMER_KEY xxxxxxxxxxxx    
 CONSUMER_SECRET xxxxxxxxx     
 OAUTH_CALLBACK Your project regerect url       
   
-2nd step You have to change drive api key and 
+==>2nd step You have to change drive api key and 
  you can create drive api from this link- https://console.developers.google.com/apis/library?  
- 
-
+ Download client_screte.json file and past in google-drive-api folder   
+put your downloaded json file name in function.php        
