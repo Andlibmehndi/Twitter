@@ -1,8 +1,5 @@
 <?php
 /** Include requre file
- *
- *
- * function.php specify all functionality's defination which is implemented..
  */
 require('Functions.php');
 $function = new Functionality();
