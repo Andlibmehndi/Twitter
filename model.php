@@ -20,46 +20,24 @@ require_once('lib/twitter-login/twitteroauth.php');
  * Define global variable
  * CONSUMER_KEY , CONSUMER_SECRET and OAUTH_CALLBACK specify the application..!!
  */
-define('CONSUMER_KEY', 'XE4x2zpsPIUctIvIRaRiHbPzs');
-define('CONSUMER_SECRET', 'QH2Xi3dZ06s15HKsKourD5qGafrUQ88lXMzscPSZTokezQpGet');
-define('OAUTH_CALLBACK', 'http://localhost/project_twitter/index.php');
+define('CONSUMER_KEY', 'xxxxxxxxxxxxxxxxxxxxxxxx');
+define('CONSUMER_SECRET', 'xxxxxxxxxxxxxxxxxxxxx');
+define('OAUTH_CALLBACK', 'xxxxxxxxxxxxxxxxxx');
 
-#session start
-/**https://rtdemo.000webhostapp.com//index.php
- * session start
- */
+
 session_start();
-/**
- * This class is basically made for the purpose of Connection of database and store-fetch data into the database
- * @category PHP
- * @author Dhiral Kaniya
- */
+
 class DBConnection
 {
-    /**
-     * Database conneciton object
-     * @var mysqli connection object
-     */
+   
     private $Connection;
-    /**
-     * Database host name
-     * @var String
-     */
+   
     private $hostname;
-    /**
-     *Database username
-     * @var String
-     */
+  
     private $username;
-    /**
-     * Database password
-     * @var String
-     */
+   
     private $password;
-    /*
-     * Database name
-     * @var String
-     */
+  
     private $dbname;
     /**
      * Initialize consturctor of the database connectivity class
@@ -112,11 +90,7 @@ class DBConnection
         }
         return $followers;
     }
-    /*
-     * Fetch 10 followers of current user
-     * @param String @screen_name
-     * @return Array @Followers
-     */
+   
     public function search10Followers($screen_name)
     {
         $seach_followers = "SELECT * FROM tbl_follower WHERE sc_name = '".$screen_name."' LIMIT 10";
