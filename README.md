@@ -30,4 +30,15 @@ OAUTH_CALLBACK Your project regerect url
 ==>2nd step You have to change drive api key and 
  you can create drive api from this link- https://console.developers.google.com/apis/library?  
  Download client_screte.json file and past in google-drive-api folder   
-put your downloaded json file name in function.php        
+put your downloaded json file name in function.php      
+
+==>3rd party liberary used    
+Bootstrap  
+  
+jQuery  
+  
+Twitter oauth  
+
+Google Drive API   
+  
+FPDF  
