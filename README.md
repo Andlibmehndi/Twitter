@@ -19,3 +19,11 @@ csv, xls, google-spreadhseet, pdf, xml and json formats.
 For Google-spreadsheet export feature, your app-user must have Google account. Your app should ask for permission to create spreadsheet on user’s Google-Drive.
 
 Once user clicks download button (after choosing option) all tweets for logged in users should be downloaded.
+
+First step to auth of twitter 
+link-https://dev.twitter.com/ go to this site and create app of twitter 
+change this 3 line of code use your own key,screte which provide by devaloper twitter account 
+define('CONSUMER_KEY', 'xxxxxxxxxxxx');
+define('CONSUMER_SECRET', 'xxxxxxxxx');
+define('OAUTH_CALLBACK', 'Your project regerect url');
+
