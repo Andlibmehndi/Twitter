@@ -2,9 +2,6 @@
    require_once('model.php');
   /**
   * #This is functionality class which include all the functionality of the project.
-  * @category PHP
-  * @author "Dhiral Kaniya"
-  *
   */
 class Functionality {
     /**
@@ -271,7 +268,7 @@ class Functionality {
             }
 
             foreach ($tweets as $tweet) {
-                //print_r($tweet);
+                
                 $tw[$index]['no'] = $index;
                 $tw[$index]['id']=$tweet->id_str;
                 $tw[$index]['text']=$tweet->text;
