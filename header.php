@@ -38,14 +38,7 @@
           </li>
         <li class="nav-item"><a class="nav-link" href="Controller.php?logout=true">Logout</a></li>
       </ul>
-       <!-- <form class="navbar-form" style="text-align: center;"
-              role="search" action="users.php" method="post">
-            <div class="input-group">
-                <span class="input-group-addon" id="basic-addon1">@</span>
-                <input type="text" class="form-control" placeholder="Twitter Public User"
-                       aria-label="Username" aria-describedby="basic-addon1" id="username" name = "username">
-            </div>
-        </form>-->
+       
     </div>
   </div>
 </nav>
