@@ -35,7 +35,5 @@ put your downloaded json file name in function.php
 ==>3rd party liberary used    
 Bootstrap,jQuery,Twitter oauth,Google Drive API  
 
-DEMO LINK     
-https://tweet110.000webhostapp.com    
+[DEMO LINK](https://tweet110.000webhostapp.com)    
 
-[a DEMO link](https://tweet110.000webhostapp.com)
