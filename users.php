@@ -1,10 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: The_King
- * Date: 8/18/2017
- * Time: 12:53 PM
- */
+
 ?>
 <html>
     <head>
